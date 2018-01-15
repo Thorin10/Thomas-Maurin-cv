@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: CV
+    database_user: root
+    database_password: Thomas33
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: thomas.maurin@ynov.com
+    mailer_password: root
+    secret: ThisTokenIsNotSoSecretChangeIt

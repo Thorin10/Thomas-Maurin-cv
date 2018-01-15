@@ -38,5 +38,12 @@ services:
         class: AppBundle\Admin\BlogAdmin
         arguments: [~, AppBundle\Entity\Blog, ~]
         tags:
-            - { name: sonata.admin, manager_type: orm, label: blog}
+            - { name: sonata.admin, manager_type: orm, label: blog }
         public: true
+
+    admin.commentaire:
+            class: AppBundle\Admin\CommentairesAdmin
+            arguments: [~, AppBundle\Entity\commentaires, ~]
+            tags:
+                - { name: sonata.admin, manager_type: orm, label: commentaires }
+            public: true
