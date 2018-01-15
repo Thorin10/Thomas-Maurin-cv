@@ -249,4 +249,3 @@ class Blog
         return $this->date;
     }
 }
-

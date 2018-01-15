@@ -1,6 +1,6 @@
 <?php
 
-/* FOSUserBundle:Security:login_content.html.twig */
+/* @FOSUser/Security/login_content.html.twig */
 class __TwigTemplate_303d2f00375bc5e0fda317f970707dbcfcd6177883d337e06fdd4fd20e4e3609 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_303d2f00375bc5e0fda317f970707dbcfcd6177883d337e06fdd4fd20e4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6cdc6ce3f8bbce4981962034c516671fb512f48d7b225bd79a820fe19a381b66 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6cdc6ce3f8bbce4981962034c516671fb512f48d7b225bd79a820fe19a381b66->enter($__internal_6cdc6ce3f8bbce4981962034c516671fb512f48d7b225bd79a820fe19a381b66_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Security:login_content.html.twig"));
+        $__internal_06f3c71accdcb7d3636e5aaef14cf8f079e36dd51f71f38011094d2769d20ce3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_06f3c71accdcb7d3636e5aaef14cf8f079e36dd51f71f38011094d2769d20ce3->enter($__internal_06f3c71accdcb7d3636e5aaef14cf8f079e36dd51f71f38011094d2769d20ce3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
-        $__internal_ced1d51af1d39fd07f87377403ed94e50da086098d09727010cd89af310f1dcb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ced1d51af1d39fd07f87377403ed94e50da086098d09727010cd89af310f1dcb->enter($__internal_ced1d51af1d39fd07f87377403ed94e50da086098d09727010cd89af310f1dcb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Security:login_content.html.twig"));
+        $__internal_5ccf487cd5d51e4e6d06cbc3ffdd0ee0b7a944c93fe092a3faff709c83917fb1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5ccf487cd5d51e4e6d06cbc3ffdd0ee0b7a944c93fe092a3faff709c83917fb1->enter($__internal_5ccf487cd5d51e4e6d06cbc3ffdd0ee0b7a944c93fe092a3faff709c83917fb1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
         // line 2
         echo "
@@ -80,16 +80,16 @@ class __TwigTemplate_303d2f00375bc5e0fda317f970707dbcfcd6177883d337e06fdd4fd20e4
 
 <!-- End login layout -->";
         
-        $__internal_6cdc6ce3f8bbce4981962034c516671fb512f48d7b225bd79a820fe19a381b66->leave($__internal_6cdc6ce3f8bbce4981962034c516671fb512f48d7b225bd79a820fe19a381b66_prof);
+        $__internal_06f3c71accdcb7d3636e5aaef14cf8f079e36dd51f71f38011094d2769d20ce3->leave($__internal_06f3c71accdcb7d3636e5aaef14cf8f079e36dd51f71f38011094d2769d20ce3_prof);
 
         
-        $__internal_ced1d51af1d39fd07f87377403ed94e50da086098d09727010cd89af310f1dcb->leave($__internal_ced1d51af1d39fd07f87377403ed94e50da086098d09727010cd89af310f1dcb_prof);
+        $__internal_5ccf487cd5d51e4e6d06cbc3ffdd0ee0b7a944c93fe092a3faff709c83917fb1->leave($__internal_5ccf487cd5d51e4e6d06cbc3ffdd0ee0b7a944c93fe092a3faff709c83917fb1_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "FOSUserBundle:Security:login_content.html.twig";
+        return "@FOSUser/Security/login_content.html.twig";
     }
 
     public function isTraitable()
@@ -137,6 +137,6 @@ class __TwigTemplate_303d2f00375bc5e0fda317f970707dbcfcd6177883d337e06fdd4fd20e4
     </div>
 </form>
 
-<!-- End login layout -->", "FOSUserBundle:Security:login_content.html.twig", "/home/thomas/thomascv/cv/app/Resources/FOSUserBundle/views/Security/login_content.html.twig");
+<!-- End login layout -->", "@FOSUser/Security/login_content.html.twig", "/home/thomas/thomascv/Blog-master/app/Resources/FOSUserBundle/views/Security/login_content.html.twig");
     }
 }

@@ -10,4 +10,12 @@ namespace AppBundle\Repository;
  */
 class commentairesRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllComment($id)
+    {
+        return $this->createQueryBuilder('p')
+           ->where('p.idarticle LIKE :idart')
+            ->andWhere('p.isvalid = 1')
+            ->setParameter('idart',$id)
+            ->getQuery()->getArrayResult();
+    }
 }

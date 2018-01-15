@@ -1,7 +1,7 @@
 <?php
 namespace AppBundle\Admin;
 
-use function Sodium\add;
+
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
@@ -16,9 +16,9 @@ class CommentairesAdmin extends AbstractAdmin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper->add('pseudo', TextType::class,['label'=>'Pseudo'])
-            ->add('commentaires', TextType::class,['label'=>'Commentaires'])
-            ->add('isvalid', BooleanType::class,['label'=>'Isvalid'])
-            ->add('idarticle', TextareaType::class,['label'=>'Idarticle']);
+            ->add('commentaires', TextAreaType::class,['label'=>'Commentaires'])
+            ->add('isvalid', BooleanType::class,['label'=>'Valider'])
+            ->add('idarticle', TextType::class,['label'=>'Numéro Article']);
     }
 
 

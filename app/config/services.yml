@@ -4,7 +4,7 @@ parameters:
     #parameter_name: value
 
 services:
-    # default configuration for services in *this* file
+    # default configuration for services in this file
     _defaults:
         # automatically injects dependencies in your services
         autowire: true
@@ -38,12 +38,19 @@ services:
         class: AppBundle\Admin\BlogAdmin
         arguments: [~, AppBundle\Entity\Blog, ~]
         tags:
-            - { name: sonata.admin, manager_type: orm, label: blog }
+            - { name: sonata.admin, manager_type: orm, label: Article }
         public: true
 
     admin.commentaire:
             class: AppBundle\Admin\CommentairesAdmin
             arguments: [~, AppBundle\Entity\commentaires, ~]
             tags:
-                - { name: sonata.admin, manager_type: orm, label: commentaires }
+                - { name: sonata.admin, manager_type: orm, label: Commentaires }
             public: true
+
+    admin.utilisateur:
+                    class: AppBundle\Admin\UserAdmin
+                    arguments: [~, AppBundle\Entity\User, ~]
+                    tags:
+                        - { name: sonata.admin, manager_type: orm, label: Utilisateur }
+                    public: true

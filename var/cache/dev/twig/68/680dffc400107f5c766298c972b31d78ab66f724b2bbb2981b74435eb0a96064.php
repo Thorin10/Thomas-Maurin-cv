@@ -1,6 +1,6 @@
 <?php
 
-/* FOSUserBundle:Registration:register_content.html.twig */
+/* @FOSUser/Registration/register_content.html.twig */
 class __TwigTemplate_547710b13c46ac1c442e7f31bb4b8e8e0910f5f3c11f8b96a050ed062ec9da42 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,44 +15,45 @@ class __TwigTemplate_547710b13c46ac1c442e7f31bb4b8e8e0910f5f3c11f8b96a050ed062ec
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7ca417b80a2aaf1999b5710099e88237c1cf51b1f781e343790b0a64028bdb65 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7ca417b80a2aaf1999b5710099e88237c1cf51b1f781e343790b0a64028bdb65->enter($__internal_7ca417b80a2aaf1999b5710099e88237c1cf51b1f781e343790b0a64028bdb65_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Registration:register_content.html.twig"));
+        $__internal_ed284a2a03bd449c173d9ec205c8f9236216313dd74eb1d79f311a6af161b56e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ed284a2a03bd449c173d9ec205c8f9236216313dd74eb1d79f311a6af161b56e->enter($__internal_ed284a2a03bd449c173d9ec205c8f9236216313dd74eb1d79f311a6af161b56e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
-        $__internal_7bf386c822558e7afbdea6a1188a5129179760a61d265acbbd0d8df51729d776 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7bf386c822558e7afbdea6a1188a5129179760a61d265acbbd0d8df51729d776->enter($__internal_7bf386c822558e7afbdea6a1188a5129179760a61d265acbbd0d8df51729d776_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Registration:register_content.html.twig"));
+        $__internal_810be122bc69d6f3419cbfa707b089398aa51f146ff195ef2f8338961c3156dc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_810be122bc69d6f3419cbfa707b089398aa51f146ff195ef2f8338961c3156dc->enter($__internal_810be122bc69d6f3419cbfa707b089398aa51f146ff195ef2f8338961c3156dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
         // line 2
-        echo "
-";
+        echo "<div id=\"bloc\" style=\"position:fixed; left: 35%; top: 100px\">
+    ";
         // line 3
         echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_start', array("method" => "post", "action" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_registration_register"), "attr" => array("class" => "fos_user_registration_register")));
         echo "
-    ";
-        // line 4
+        <div>
+            ";
+        // line 5
         echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(($context["form"] ?? $this->getContext($context, "form")), 'widget');
         echo "
-    <div>
-        <input type=\"submit\" value=\"";
+                <input type=\"submit\" value=\"";
         // line 6
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("registration.submit", array(), "FOSUserBundle"), "html", null, true);
         echo "\" />
-    </div>
-";
-        // line 8
+            ";
+        // line 7
         echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
         echo "
+        </div>
+</div>
 ";
         
-        $__internal_7ca417b80a2aaf1999b5710099e88237c1cf51b1f781e343790b0a64028bdb65->leave($__internal_7ca417b80a2aaf1999b5710099e88237c1cf51b1f781e343790b0a64028bdb65_prof);
+        $__internal_ed284a2a03bd449c173d9ec205c8f9236216313dd74eb1d79f311a6af161b56e->leave($__internal_ed284a2a03bd449c173d9ec205c8f9236216313dd74eb1d79f311a6af161b56e_prof);
 
         
-        $__internal_7bf386c822558e7afbdea6a1188a5129179760a61d265acbbd0d8df51729d776->leave($__internal_7bf386c822558e7afbdea6a1188a5129179760a61d265acbbd0d8df51729d776_prof);
+        $__internal_810be122bc69d6f3419cbfa707b089398aa51f146ff195ef2f8338961c3156dc->leave($__internal_810be122bc69d6f3419cbfa707b089398aa51f146ff195ef2f8338961c3156dc_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "FOSUserBundle:Registration:register_content.html.twig";
+        return "@FOSUser/Registration/register_content.html.twig";
     }
 
     public function isTraitable()
@@ -62,7 +63,7 @@ class __TwigTemplate_547710b13c46ac1c442e7f31bb4b8e8e0910f5f3c11f8b96a050ed062ec
 
     public function getDebugInfo()
     {
-        return array (  42 => 8,  37 => 6,  32 => 4,  28 => 3,  25 => 2,);
+        return array (  41 => 7,  37 => 6,  33 => 5,  28 => 3,  25 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -76,13 +77,14 @@ class __TwigTemplate_547710b13c46ac1c442e7f31bb4b8e8e0910f5f3c11f8b96a050ed062ec
     public function getSourceContext()
     {
         return new Twig_Source("{% trans_default_domain 'FOSUserBundle' %}
-
-{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    {{ form_widget(form) }}
-    <div>
-        <input type=\"submit\" value=\"{{ 'registration.submit'|trans }}\" />
-    </div>
-{{ form_end(form) }}
-", "FOSUserBundle:Registration:register_content.html.twig", "/home/thomas/thomascv/cv/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig");
+<div id=\"bloc\" style=\"position:fixed; left: 35%; top: 100px\">
+    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+        <div>
+            {{ form_widget(form) }}
+                <input type=\"submit\" value=\"{{ 'registration.submit'|trans }}\" />
+            {{ form_end(form) }}
+        </div>
+</div>
+", "@FOSUser/Registration/register_content.html.twig", "/home/thomas/thomascv/Blog-master/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig");
     }
 }

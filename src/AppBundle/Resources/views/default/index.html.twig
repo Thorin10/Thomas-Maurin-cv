@@ -1,0 +1,177 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block body %}
+    {{ parent() }}
+    <div id = "bloc" class="col-md-5 texttype" style="top: 70px; left: 30%">
+        <p>
+            Formation
+        </p>
+    </div>
+    <!-- Start Timeline School -->
+    <div class="container">
+        <div class="row">
+            <div class="timeline-centered" style="top: 50px; left: 30%">
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <time class="timeline-time"><span>2014-2015</span> <span> </span></time>
+
+                        <div class="timeline-icon bg-blue-light">
+                            <i class="entypo-feather"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h2><a href="#">Bac S-SI</a></h2>
+                            <p>Obtention du bac au Lycée Odilon Redon</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry left-aligned">
+
+                    <div class="timeline-entry-inner">
+                        <time class="timeline-time"><span>2015-2016</span> <span> </span></time>
+
+                        <div class="timeline-icon bg-blue1">
+                            <i class="entypo-suitcase"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h2><a href="#">Epitech</a></h2>
+                            <p>1 ère année d'étude en informatique</p></div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <time class="timeline-time"><span>2016-2017</span> <span> </span></time>
+
+                        <div class="timeline-icon bg-blue2">
+                            <i class="entypo-feather"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h2><a href="#">Ingésup Ynov</a></h2>
+                            <p>1ère année d'étude à Ingésup Ynov</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry left-aligned">
+
+                    <div class="timeline-entry-inner">
+                        <time class="timeline-time"><span>2017-2018</span></time>
+
+                        <div class="timeline-icon bg-blue-dark1">
+                            <i class="entypo-camera"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h2><a href="#">Ingésup Ynov</a></h2>
+                            <p>2ème année d'étude à Ingésup Ynov</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry begin">
+
+                    <div class="timeline-entry-inner bg-blue-dark2">
+
+                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                            <i class="entypo-flight"></i>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline School -->
+    <div id = "bloc" class="col-md-5 texttype" style="top: 60px; left: 30%">
+        <p>
+            Compétences
+        </p>
+    </div>
+    <section class="our-skills">
+        <div class="container" >
+            <div class="row">
+                <!-- Start Progress Skills -->
+
+                <div class="col-md-5" style="top: 50px; left: 30%">
+                    <div class="skills-progress">
+                        <div class="progress-tall">
+                            <div class="progress-barr progress-bar-success texttype" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                Linux/Windows
+                            </div>
+                        </div>
+                        <div class="progress-tall">
+                            <div class="progress-barr progress-bar-danger texttype" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                Microsoft Office
+                            </div>
+                        </div>
+                        <div class="progress-tall">
+                            <div class="progress-barr progress-bar-warning texttype" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                Language C
+                            </div>
+                        </div>
+                        <div class="progress-tall">
+                            <div class="progress-barr progress-bar-info texttype" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                Java
+                            </div>
+                        </div>
+
+                        <div class="progress-tall">
+                            <div class="progress-barr progress-bar-infos texttype" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                Windows Server
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Progress Skills -->
+            </div>
+        </div>
+    </section>
+
+    <div id = "bloc" class="col-md-5 texttype" style="top: 80px; left: 30%">
+        <p>
+            Langues
+        </p>
+    </div>
+    <!-- Start Progress Languages -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6" style="left: 25%; top: 80px">
+                <div class="progress blue-dark">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                    <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                    <div class="progress-value">anglais</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" style="left: 25%; top: 80px">
+                <div class="progress blue-light">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                    <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                    <div class="progress-value">espagnol</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}
