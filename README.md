@@ -21,4 +21,5 @@ Une fois connecter ajouter /admin à la fin de votre url : http://127.0.0.1:8001
 Partie Blog :
 Il est possible d’ajouter des articles via la page d’administration. 
 Chaque article peut être commenté, puis chaque commentaire sont modérés pour pouvoir être affiché.
+
 Thomas Maurin
