@@ -2,31 +2,23 @@
                                                            Comment Installe
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Bienvenue dans ce README.md qui sera réalisé par Thomas Maurin.
+Clonez le projet avec 
+git clone https://github.com/Thorin10/Thomas-Maurin-cv
 
-Vous trouverez dans ce fichier, les explications qui vous permettront d'installer mon projet et la base de donnée.
+Créer une base de donnée blog dans mysql.
 
-Pour commencer, il vous faudra faire un clone de mon projet à l'endroit ou vous voulez qu'il se clone grâce à la commande:
+Dans votre terminal, accédez au dossier que vous venez de cloner, puis lancer la commande 
+composer install ou composer update si vous l'avez déjà
+Utiliser ensuite la commande php bin/console doctrine:schema:update
+Tous les composants vont alors s'installer
 
-git clone https://github.com/leobrugere/CVLEOBRUGERE.git
+Vous pouvez désormais accéder au site ! 
 
-Le projet CVLEOBRUGERE est maintenant installé.
+Il s'agit d'un site CV, dans lequel on y retrouve mes compétences, mes expériences, ma scolarité ainsi que mes articles de blog.
 
-Vous pouvez voir qu'il y a un fichier cv.sql. Ce fichier correspond à la base de donnée de mon site. 
-Il vous faut l'installer afin de pouvoir voir l'intégralité du site. Installez sur phpmyadmin, c'est très simple.
-
-Ensuite, il faudra faire la commande suivante:
-
-composer install
-
-Et voilà tout est prêt que le site soit consultable..... ou presque !
-
-Si vous voulez accéder au panel Admin il vous faudra les logs du SuperAdmin qui sont les suivants:
-
-identifiant: admin
-mdp: erty
-Le bouton connexion vous permettra de vous connecter.
-
-Vous avez maintenant accès à la totalité de mon site et vous pouvez le modifier, ajouter, supprimer tout ce qui vous plaira !
-
-Cordialement, BRUGERE Léo
+Pour accéder à la partie administration, il faut accéder a son espace personnel, se connecter avec les identifiants "admin" et le mot de passe "admin"
+Une fois connecter ajouter /admin à la fin de votre url : http://127.0.0.1:8001/admin
+Partie Blog :
+Il est possible d’ajouter des articles via la page d’administration. 
+Chaque article peut être commenté, puis chaque commentaire sont modérés pour pouvoir être affiché.
+Thomas Maurin
